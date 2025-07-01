@@ -61,3 +61,15 @@ The code automatically detects and uses GPU if available for faster training.
 ├── README.md
 └── requirements.txt
 ```
+
+## Inspired from
+
+[Transformers_Trading_01](https://github.com/ZiadFrancis/Transformers_Trading_01/tree/main)
+
+## Work left
+
+- Making the model more robust
+- adding more technical indicators
+- better evaluation
+- testing on real time market
+- and more what can be done to make a better GPT for trading
