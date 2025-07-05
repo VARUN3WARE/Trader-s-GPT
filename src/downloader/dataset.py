@@ -441,3 +441,4 @@ tickers2 = [
 ]
 
 print(len(tickers2))
+print("more data added")
