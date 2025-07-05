@@ -439,3 +439,5 @@ tickers2 = [
     "SPLG", "SPYG", "SPYV", "VUG", "VOOG", "SMDV", "SPXU", "SPXS", "SH", "BIB",
     "SPXL", "SSO", "UPRO", "FNGU", "MGK", "SPDW", "SPYG", "VYM", "VTI",
 ]
+
+print(len(tickers2))
