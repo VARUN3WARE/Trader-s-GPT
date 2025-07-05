@@ -3,8 +3,8 @@ import os
 from glob import glob
 
 # Set paths
-input_dir = os.path.join("Output", "data_1h")
-output_dir = os.path.join("Output", "formatted_data_1h")
+input_dir = os.path.join("Data", "data_1h")
+output_dir = os.path.join("Data", "formatted_data_1h")
 os.makedirs(output_dir, exist_ok=True)
 
 # Process all CSV files in input_dir

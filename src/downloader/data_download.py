@@ -3,19 +3,19 @@ import yfinance as yf
 import pandas as pd
 import os
 from datetime import datetime
-from dataset import tickers
+from dataset import tickers2
 
 # Configuration
 start_date = "2023-08-01"
 end_date = "2025-06-30"
 interval = "1h"
-output_dir = os.path.join("Output", f"data_{interval}")
+output_dir = os.path.join("Data", f"data_{interval}")
 
 # Create output folder if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
 
 # Loop through each ticker
-for ticker in tickers:
+for ticker in tickers2:
     try:
         print(f"Downloading {ticker}...")
         data = yf.download(ticker, start=start_date, end=end_date, interval=interval, progress=False)
