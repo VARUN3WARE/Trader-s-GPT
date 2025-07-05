@@ -441,4 +441,4 @@ tickers2 = [
 ]
 
 print(len(tickers2))
-print("more data added")
+print("more data added to close this issue")
