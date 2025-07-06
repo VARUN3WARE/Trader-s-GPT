@@ -4,3 +4,12 @@ ipykernel
 python-dotenv
 matplotlib
 seaborn
+#pip install pytorch-lightning pytorch-forecasting scikit-learn ta pandas matplotlib
+torch
+numpy
+scikit-learn
+ta
+pytorch-lightning>=2.0
+pytorch-forecasting
+pytorch-lightning
+tensorboard
